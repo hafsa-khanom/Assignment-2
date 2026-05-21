@@ -114,6 +114,7 @@ body{
     color: white;
     width: 80%;
     text-align: center;
+    font-size: 3rem;
 }
 .listen-btn{
     border-radius: 1000px;
@@ -143,8 +144,22 @@ body{
     height: 400px;
     transform: translate(-0%, -500%);
 }
-.border{
-    border-bottom: 1px solid rgba(65, 37, 103, 1);
+.p{
+    background: rgba(26, 11, 46, 1);
+    height: 647px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 200px 120px 200px;
+    font-size: 2.5rem;
+
+}
+.line{
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    position: absolute;
+    height: 47px;
+opacity: 0.1;;
 }
 .card-container{
     display: grid;
@@ -152,12 +167,15 @@ body{
     text-align: center;
     margin-top: -90rem;
 }
+.card{
+    padding: 50px 200px 120px 200px; 
+}
 .clr{
      color: rgba(0, 255, 136, 1);
 }
 .choose-tech{
     text-align: center;
-    margin-top: 100px;
+    padding: 120px 200px 120px 200px;
     font-weight: 700;
 }
 .grid-container{
@@ -167,8 +185,7 @@ body{
     grid-template-rows: repeat(3, 600px);
     gap: 20px;
     margin: 200px;
-    padding: 120px 200px 120px 200px;
-    
+    padding: 120px 200px 120px 200px;    
 }
 .box {
     margin: 12px; 
@@ -176,7 +193,7 @@ body{
     align-items: center;
     border-radius: 100px;
     padding-left: 50px;
-    font-size: 5rem;
+    font-size: 2.5rem;
     background-color: rgba(53, 17, 101, 0.4);
 
 }
@@ -205,6 +222,37 @@ body{
 }
 .x{
   z-index: 2;
+}
+.episode{
+    height: 647px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px 120px 200px;
+    font-size: 2.5rem;
+}
+.card-container-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 200px;
+    padding: 120px 200px 120px 200px; 
+}
+.card-2{
+    margin: 12px; 
+    align-items: center;
+    border-radius: 100px;
+    padding-left: 50px 200px 120x 200px;
+    font-size: 2.5rem;
+    background-color: rgba(53, 17, 101, 0.4);
+    overflow: hidden;
+}
+.card-2 iframe{
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+.content-2{
+    padding: 20px;
 }
 /* Phones */
 @media screen and (max-width: 2092px) {
